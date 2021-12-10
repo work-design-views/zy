@@ -1,19 +1,19 @@
 <div class="weui-panel">
   <div class="columns m-0">
     <%= link_to({ controller: 'trade/card_templates' }, class: 'column has-text-centered has-background-info-light has-text-centered p-0') do %>
-      <%= image_tag '/assets/banner.jpg', class: 'image' %>
+      <img src="/assets/banner.jpg" class="image">
     <% end %>
     <div class="column has-background-white">
       <div class="columns is-flex">
         <%= link_to({ controller: 'trade/card_templates' }, class: 'column') do %>
           <figure class="image is-32x32" style="margin-left: auto; margin-right: auto">
-            <%= image_tag '/assets/vip1.png', class: '' %>
+            <img src="/assets/vip1.png">
           </figure>
           <p class="has-text-centered has-text-grey-dark">普通会员</p>
         <% end %>
         <%= link_to({ controller: 'trade/card_templates' }, class: 'column') do %>
           <figure class="image is-32x32" style="margin-left: auto; margin-right: auto">
-            <%= image_tag '/assets/vip3.png', class: '' %>
+            <img src="/assets/vip3.png">
           </figure>
           <p class="has-text-centered has-text-grey-dark">高级会员</p>
         <% end %>
